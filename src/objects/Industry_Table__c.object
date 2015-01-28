@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Stores 4-digit SIC and Industry Description</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Major_Segment__c</fullName>
+        <description>Identifies the major segment for each 4 digit SIC (market seg)</description>
+        <externalId>false</externalId>
+        <label>Major Segment</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SIC__c</fullName>
+        <externalId>true</externalId>
+        <label>SIC</label>
+        <length>4</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sub_Segment__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Segment</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>X2_Digit_Industry_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>2_Digit Industry Name</label>
+        <picklist>
+            <picklistValues>
+                <fullName>02 Agricultural Production - Livestock</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>07	Agricultural Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>08	Forestry</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>10	Metal Mining</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>12	Coal Mining</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>13	Oil and Gas Extraction</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>14	Nonmetallic Minerals, Except Fuels</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>15	General Building Contractors</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>16	Heavy Construction, Exc. Building (Water/Sewer/Utilities)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>17	Special Trade Contractors</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>20	Food and Kindred Products</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>21	Tobacco Products</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>22	Textile Mill Products</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>23	Apparel and Other Textile Products</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>24	Lumber and Wood Products</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>25	Furniture and Fixtures</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>26	Paper and Allied Products</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>27	Printing and Publishing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>28	Chemicals and Allied Products</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>29	Petroleum and Coal Products</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>30	Rubber and Misc Plastics</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>31	Leather and Leather Products</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>32	Stone, Clay, and Glass Products</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>33	Primary Metal Industries</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>34	Fabricated Metal Products</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>35	Industrial Machinery and Equipment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>36	Electronic &amp; Other Electric Equipment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>37	Transportation Equipment</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>38	Instruments and Related Products</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>39	Misc Manufacturing Industries</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>40	Railroad Transportation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>41	Local and Interurban Passenger Transit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>42	Trucking and Warehousing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>43	Us Postal Service</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>44	Water Transportation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>45	Transportation by Air</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>46	Pipelines, Except Natural Gas</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>47	Transportation Services (Travel Agencies)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>48	Communication</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>49	Electric, Gas and Sanitary Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>50	Wholesale Trade--Durable Goods</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>51	Wholesale Trade--Nondurable Goods</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>52	Building Materials &amp; Garden Supplies</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>54	Food Stores</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>55	Auto Dealers &amp; Services Stations</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>58	Eating and Drinking Places</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>59	Miscellaneous Retail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>70	Hotels and Other Lodging Places</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>72	Personal Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>73	Business Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>75	Auto, Repair, Services and Parking</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>76	Miscellaneous Repair Services (TV, Appliance &amp; Furniture)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>79	Amusement &amp; Recreation Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>82	Educational Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>87	Engineering &amp; Management Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>95	Environmental Quality and Housing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>X2_Digit_SIC__c</fullName>
+        <externalId>false</externalId>
+        <label>2-Digit SIC</label>
+        <length>2</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Industry Table</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>SIC__c</columns>
+        <columns>NAME</columns>
+        <columns>Major_Segment__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Healthcare</fullName>
+        <columns>Major_Segment__c</columns>
+        <columns>Sub_Segment__c</columns>
+        <columns>SIC__c</columns>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Major_Segment__c</field>
+            <operation>equals</operation>
+            <value>Healthcare</value>
+        </filters>
+        <label>Healthcare</label>
+    </listViews>
+    <nameField>
+        <label>Industry Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Industry Table</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

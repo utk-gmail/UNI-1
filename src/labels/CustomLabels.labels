@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ACCOUNT_ID_NULL</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ACCOUNT ID NULL</shortDescription>
+        <value>Account ID is Null.</value>
+    </labels>
+    <labels>
+        <fullName>AccountId_Required_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccountId Required Msg</shortDescription>
+        <value>accountId is required</value>
+    </labels>
+    <labels>
+        <fullName>Account_ID_not_found</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Account ID not found</shortDescription>
+        <value>Account not found. Provided Account ID is Invalid.</value>
+    </labels>
+    <labels>
+        <fullName>Account_Not_Found_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Not Found Msg</shortDescription>
+        <value>Account not found with provided accountId</value>
+    </labels>
+    <labels>
+        <fullName>CS_Event_Id_Required_Msg</fullName>
+        <categories>Calendar Service</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CS_Event Id Required Msg</shortDescription>
+        <value>eventId is required</value>
+    </labels>
+    <labels>
+        <fullName>CS_Event_Not_Found_Msg</fullName>
+        <categories>Calendar Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_Event Not Found Msg</shortDescription>
+        <value>Event not found with provided eventId</value>
+    </labels>
+    <labels>
+        <fullName>CS_Invalid_Date_Msg</fullName>
+        <categories>Calendar Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS Invalid Date Msg</shortDescription>
+        <value>Invalid Date</value>
+    </labels>
+    <labels>
+        <fullName>CS_Invalid_Status_Msg</fullName>
+        <categories>Calendar Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_Invalid Status Msg</shortDescription>
+        <value>Invalid status value. Expected are Cancelled, Done and Not Started</value>
+    </labels>
+    <labels>
+        <fullName>CS_Status_Or_SnoozeDate_Required_Msg</fullName>
+        <categories>Calendar Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_Status Or SnoozeDate Required Msg</shortDescription>
+        <value>Either status or snooze date is required for task update</value>
+    </labels>
+    <labels>
+        <fullName>CS_Status_Required_Msg</fullName>
+        <categories>Calendar Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_Status Required Msg</shortDescription>
+        <value>status is required</value>
+    </labels>
+    <labels>
+        <fullName>CS_Task_Id_Required_Msg</fullName>
+        <categories>Calendar Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_Task Id Required Msg</shortDescription>
+        <value>taskId is required</value>
+    </labels>
+    <labels>
+        <fullName>CS_Task_Not_Found_Msg</fullName>
+        <categories>Calendar Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_Task Not Found Msg</shortDescription>
+        <value>Task not found with provided taskId</value>
+    </labels>
+    <labels>
+        <fullName>CS_User_Not_Found_Msg</fullName>
+        <categories>Calendar Service</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS User Not Found Msg</shortDescription>
+        <value>User not found with provided userId</value>
+    </labels>
+    <labels>
+        <fullName>CS_success</fullName>
+        <categories>Calendar Service</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CS_success</shortDescription>
+        <value>success</value>
+    </labels>
+    <labels>
+        <fullName>Current_Opportunity_Not_Found</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Current_Opportunity_Not_Found</shortDescription>
+        <value>Current Opportunity for provided account not found.</value>
+    </labels>
+    <labels>
+        <fullName>FIT_INFORMATION_SUCCESS</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FIT INFORMATION SUCCESS</shortDescription>
+        <value>Fit Information retrieved successfully.</value>
+    </labels>
+    <labels>
+        <fullName>Fit_Session_Closed</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Fit Session Closed</shortDescription>
+        <value>Fit Session closed successfully.</value>
+    </labels>
+    <labels>
+        <fullName>INVOICE_RECORD_TYPE</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>INVOICE RECORD TYPE</shortDescription>
+        <value>Invoice</value>
+    </labels>
+    <labels>
+        <fullName>Invalid_Date_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Date Msg</shortDescription>
+        <value>Invalid Date</value>
+    </labels>
+    <labels>
+        <fullName>LastCheck_Required_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LastCheck Required Msg</shortDescription>
+        <value>lastCheck is required</value>
+    </labels>
+    <labels>
+        <fullName>Last_Check_Invalid_DateTime_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Last Check Invalid DateTime Msg</shortDescription>
+        <value>lastCheck datetime is invalid</value>
+    </labels>
+    <labels>
+        <fullName>UNABLE_PARSE_REQ_PARAMS</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>UNABLE_PARSE_REQ_PARAMS</shortDescription>
+        <value>Unable to parse the Request parameters.</value>
+    </labels>
+    <labels>
+        <fullName>User_Not_Found_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>User Not Found Msg</shortDescription>
+        <value>User not found with passed userId</value>
+    </labels>
+    <labels>
+        <fullName>User_Not_Found_with_OwnerId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>User Not Found with OwnerId</shortDescription>
+        <value>User not found with passed ownerId</value>
+    </labels>
+    <labels>
+        <fullName>WEARER_RECORD_TYPE</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>WEARER RECORD TYPE</shortDescription>
+        <value>Wearer</value>
+    </labels>
+</CustomLabels>
